@@ -1,4 +1,4 @@
-﻿# MENAT Pathways - Phase 1
+﻿# Pathways
 
 <details open="open">
 
