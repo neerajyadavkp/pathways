@@ -74,11 +74,11 @@ As part of Phase-1, Integrated Pipeline Report will be generated on Excel and Ta
 
 ## Data Flow
 
-![DataFlow](/images/7e31686813c6436d95a8f5e30d6d43f5.png)
+![image](https://user-images.githubusercontent.com/111518974/185426150-dbe8d0f0-91b6-4ad7-9ce7-e9b9da47a19b.png)
 
 ## Process Flow
 
-![ProcessFlow](/images/600e2f7cc9e5467e8c0394aaaec7742d.png)
+![image](https://user-images.githubusercontent.com/111518974/185426068-87d9707a-a3f9-42e7-9902-f0b69984f856.png)
 
 ### Step - 1
 
