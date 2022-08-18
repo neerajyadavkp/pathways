@@ -1,0 +1,27 @@
+use amea;
+insert overwrite table pcd_ext_orc_menat_pathway_drm_pipelineinput partition(year,cycle,distributorname,version)
+select  quarter ,             
+        month ,               
+        yearmonth ,           
+        period ,   
+        distributorcode,
+        country ,             
+       sku ,                 
+        skudescription ,      
+        brand ,               
+        category ,            
+        country_group ,       
+        conversion_factor ,   
+        os ,                  
+        arr ,                 
+        ims ,                 
+        woc ,                 
+        adj ,                 
+        flag ,
+      stock_days,                
+from_unixtime(unix_timestamp(current_timestamp(),'yyyy-MM-dd HH:mm:ss'), 'yyyy-MM-dd HH:mm:ss') as load_date,
+       year ,                
+        cycle , 
+	distributorname,
+        version                                       
+from src_ext_txt_menat_pathway_drm_pipelineinput;
