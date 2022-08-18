@@ -42,8 +42,8 @@ exec 1>worker.log 2>&1
 #
 # Author                          Date                     Comment
 # ---------------------------------------------------------------------------------
-# Antony Nadan                 1/27/2021                 First version of the script created
-# Anand Tj                     30/04/2021                Add global trap and change HQL execution
+# Neeraj                     1/27/2021                 First version of the script created
+
 
 echo "############ Worker Process start time $(date +'%d%m%Y%H%M%S') ############ "
 SCRIPT=$(readlink -f $0)
