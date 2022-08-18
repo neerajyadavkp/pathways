@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Date       : 22/02/2021
-Author     : Vibha Goswami, Ananda and Neeraj
+Author     : Neeraj
 Description: This script aggreagtes leftover from web confirmation and converts SKUs to DFU.
 Project	   : MENAT Pathways - Phase 1
 Region     : AMEA
