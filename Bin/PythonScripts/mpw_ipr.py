@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Date       : 22/02/2021
-Author     : Vibha Goswami, Ananda and Neeraj
+Author     :  Neeraj
 Description: This script combines IMS , OS, Shipment Arrivals and create the calculated Facts Suggested Orders, WOC, and ADJ.
 Project    : MENAT Pathways - Phase 1
 Region     : AMEA
