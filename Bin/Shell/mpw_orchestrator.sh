@@ -31,7 +31,7 @@ set -x
 #
 # Author                          Date                     Comment
 # ---------------------------------------------------------------------------------
-# Antony Nadan                 1/27/2021                 First version of the script created
+# Neeraj                      1/27/2021                 First version of the script created
 
 echo "############ Orchestrator Process start time $(date +'%d%m%Y%H%M%S') ############ "
 SCRIPT=$(readlink -f $0)
